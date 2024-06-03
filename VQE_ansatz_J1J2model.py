@@ -258,7 +258,7 @@ ret = basinhopping(expect,initial_guess, minimizer_kwargs=minimizer_kwargs,niter
 print(ret)
 '''
 
-res = minimize(expect , initial guess ,method= ’COBYLA’ , tol =1e−08, options={’maxiter’: 50000})
+res = minimize(expect , initial_guess ,method= ’COBYLA’ , tol =1e−08, options={’maxiter’: 50000})
 print(res)
 
 
