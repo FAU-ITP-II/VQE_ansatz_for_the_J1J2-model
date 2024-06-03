@@ -258,8 +258,8 @@ ret = basinhopping(expect,initial_guess, minimizer_kwargs=minimizer_kwargs,niter
 print(ret)
 '''
 
-ret = minimize(expect , initial guess ,method= ’COBYLA’ , tol =1e−08, options={’maxiter’: 50000})
-print(ret)
+res = minimize(expect , initial guess ,method= ’COBYLA’ , tol =1e−08, options={’maxiter’: 50000})
+print(res)
 
 
 string ='data_optimization_J1J2_16-qubits_wo_diaggates.dat'
